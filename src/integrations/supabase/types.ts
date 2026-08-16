@@ -3424,6 +3424,7 @@ export type Database = {
       }
     }
     Functions: {
+      admin_export_full_backup: { Args: never; Returns: Json }
       admin_restore_table_tx: {
         Args: { _mode?: string; _rows: Json; _table: string }
         Returns: Json
