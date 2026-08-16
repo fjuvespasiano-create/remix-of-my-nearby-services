@@ -9,7 +9,7 @@ import {
 import { SiteLayout } from "@/components/site/SiteLayout";
 import { Button } from "@/components/ui/button";
 import { getJob } from "@/lib/jobs.functions";
-import { jobsKeys, formatSalary, type JobDetail } from "@/features/jobs";
+import { DEFAULT_SEARCH, jobsKeys, formatSalary, type JobDetail } from "@/features/jobs";
 
 export const Route = createFileRoute("/empregos/$id")({
   head: () => ({ meta: [{ title: "Detalhes da vaga — AgenddaAqui" }] }),
